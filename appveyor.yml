@@ -27,6 +27,9 @@ install:
   - gem --version
   - where gem
 
+  - bash --version
+  - where bash
+
 build_script:
   - bash -lc bin/setup.sh
 
