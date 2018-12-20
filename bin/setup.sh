@@ -4,7 +4,7 @@ set -eo pipefail
 
 set +x
 
-gem update --system 2.7.8
+gem update --system 3.0.0
 gem install bundler --version 1.17.2 --force
 
 bin/bundle install --jobs 3 --retry 3
